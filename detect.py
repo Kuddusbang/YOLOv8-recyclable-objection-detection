@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load a pre-trained model
-model = YOLO("/Users/towfiislam/Desktop/COMP4301/ProjectF/runs/detect/train12/weights/best.pt")
+model = YOLO("best.pt")
 
 # Open the default camera (0 for the built-in webcam)
 cap = cv2.VideoCapture(0)
